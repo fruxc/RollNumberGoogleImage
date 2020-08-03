@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Roll Number JPEG</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>
+      Roll Number JPEG
+    </title>
+  </head>
+  <body>
+    <h1>
+      Get your roll number
+    </h1>
+    <label>(Image will be cropped)</label><br/><br/><br/>
+    <canvas id="can"></canvas>
+    <br/>
+    <label>Roll Number: </label>
+    <input id="rollNumber" type="number"/>
+    <br/>
+    <input id="setRollNumber" type="button" value="RollNumber" onClick="setRollNumber()"/><br/>
+    <a id="download" download="rollNumber.jpg" href="" onclick="download(this)">Download</a><br/>
+    <input id="clear" type="button" value="Clear Canvas" onClick="doClear()"/>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
